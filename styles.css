@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 
 ::-webkit-scrollbar {
@@ -43,12 +43,24 @@ img {
     margin :0;
 }
 
+/* .carrousel_ecran figcaption {
+    position: relative;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    white-space: nowrap;
+} */
+
 .carrousel_ecran figure {
     margin: 0;
+    display: flex;
 }
+
 
 .carrousel {
     position: relative;
+    max-width: 48rem;
+    margin: 0 auto;
 }
 
 .carrousel_btn {
@@ -146,6 +158,5 @@ img {
     background-color: rgba(255, 255, 255, 1);
     width: 200px;
     height: 100px;
-    opacity: 1;
-} */
-
+    opacity: 1;*/
+}
