@@ -84,5 +84,33 @@ img {
     gap: 1rem;
 }
 .caroussel_lien.actif {
-    color: red;
+    /* font-weight: bold;
+    transition: all 0.5s;
+    width: 200px;
+    height: 100px;
+    opacity: 1; */
 }
+
+.caroussel_lien {
+    /* text-decoration: none;
+    color: #000;
+    padding : 10px 30px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    transition: 0.5s;
+    opacity: 0.6;
+    width: 20vw;
+    height: 10vh;
+    white-space: nowrap;
+    box-shadow: 0px 0px 0.5rem 1px rgba(0, 0, 0, 0.5); */
+}
+
+.caroussel_lien:hover {
+    /* font-weight: bold;
+    transition: all 0.5s;
+    background-color: rgba(255, 255, 255, 1);
+    width: 200px;
+    height: 100px;
+    opacity: 1;
+} */
+
