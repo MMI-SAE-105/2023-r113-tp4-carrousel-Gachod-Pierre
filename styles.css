@@ -38,9 +38,9 @@ img {
 }
 
 .carrousel_ecran {
-    flex: none;
-    width: 100%;
+    flex: 0 0 100%;
     scroll-snap-align: start;
+    margin :0;
 }
 
 .carrousel_ecran figure {
